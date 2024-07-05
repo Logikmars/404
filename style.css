@@ -1,0 +1,95 @@
+#body{
+    margin: 0;
+    border: 0;
+}
+
+.free_img {
+    width: 0;
+    height: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decor {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.decor_left{
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    align-items: flex-end;
+    right: 60%;
+}
+#left{
+    width: 30dvw;
+}
+.decor_right{
+    display: flex;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    left: 65%;
+}
+#Right{
+    width: 30dvw;
+}
+.decor_logos{
+    display: flex;
+    position: absolute;
+}
+#decorLogo{
+    width: 30dvw;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    align-content: flex-end;
+    top: 35dvh;
+}
+
+
+.app {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    row-gap: 2vh;
+    flex-direction: column;
+}
+.content_logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.content_logo img{
+    width: 46dvw;
+}
+.content_btn{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.content_btn img{
+    width: 18dvw;
+}
